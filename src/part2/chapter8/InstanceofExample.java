@@ -12,10 +12,10 @@ public class InstanceofExample {
 
     private static void ride(Vehivle vehivle) {
         //방법1
-        /*if (vehivle instanceof Bus) {
+        if (vehivle instanceof Bus) {
             Bus bus = (Bus) vehivle;
             bus.checkFare();
-        }*/
+        }
         //매개값이 Bus인 경우에만 강제 타입 변환해서 checkFare() 메소드를 호출
 
         //방법2
